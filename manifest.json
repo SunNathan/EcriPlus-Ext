@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "EcriPlus",
+  "version": "1.0",
+  "description": "",
+  "permissions": ["webNavigation", "activeTab", "storage","webRequest","webRequestBlocking", "*://*.ecriplus.fr/*"],
+  "background": {
+    "scripts": ["content.js"]
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
