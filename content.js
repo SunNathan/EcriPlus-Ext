@@ -45,7 +45,6 @@ function printExplication(explication, tabId) {
                 code: `
                 instructionSection = document.querySelector('.challenge-statement');
                 instructionSection.innerHTML += '${explication}';
-                delete instructionSection;
                 if (!instructionSection) console.log('errreur');`
             });
             // console.log('ajouté', explication);
