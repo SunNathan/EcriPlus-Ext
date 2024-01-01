@@ -1,13 +1,20 @@
 {
   "manifest_version": 2,
   "name": "EcriPlus",
-  "version": "1.0",
+  "version": "1.1",
   "description": "",
-  "permissions": ["webNavigation", "activeTab", "storage","webRequest","webRequestBlocking", "*://*.ecriplus.fr/*"],
+  "permissions": ["webNavigation", "activeTab", "webRequest","webRequestBlocking", "*://*.ecriplus.fr/*"],
   "background": {
     "scripts": ["content.js"]
   },
   "icons": {
     "48": "icon.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "sunnathan@sunnathan.fr",
+      "strict_min_version": "54.0"
+    }
   }
+
 }
