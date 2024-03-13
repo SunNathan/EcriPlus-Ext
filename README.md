@@ -3,7 +3,7 @@
 Fonctionne uniquement sur Firefox (actuellement)
 
 
-- Télécharger le .XPI dans la section Release
+- Télécharger le .XPI dans la section Release (https://github.com/SunNathan/EcriPlus-Ext/releases)
 (le .XPI est un fichier signer et vérifier sur l'interface http://addons.mozilla.org/fr/developers/)
 - Ajouter le a Firefox (https://www.malekal.com/ajouter-supprimer-des-extensions-sur-mozilla-firefox/#Ajouter_une_extension_depuis_un_fichier) 
 
