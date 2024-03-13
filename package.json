@@ -3,6 +3,7 @@
     "web-ext": "^7.9.0"
   },
   "scripts": {
-    "start:firefox": "web-ext run --source-dir ./"
+    "start:firefox": "web-ext run --source-dir ./",
+    "build": "web-ext build"
   }
 }
